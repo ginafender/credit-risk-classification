@@ -30,7 +30,6 @@ Using bulleted lists, describe the balanced accuracy scores and the precision an
 
 Overall, both Models scored fairly high across the board. However, Model 2, that had been fitted to the RandomOverSampler, performed higher in precision, recall, and accuracy. We can tell it performed better by looking at the Class 1 scores. In Model 1, Class 1 was greatly outnumbered by Class 0, which can cause misleading results if the model is just predicting the majority class most of the time. In Model 2, after the classes were balanced using RandomOverSampler, the predictions became more accurate. 
 
-It is important to have good performance when dealing with Class 1, because it is the class of high risk loans.
+Class 1 is the group of high risk loans, so it is important to have an accurately peforming model. Because of this factor, I would reccommend using Model 2.
 
-After analyzing both models, I would reccommend using Model 2.
 
